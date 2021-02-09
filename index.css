@@ -1,0 +1,157 @@
+.wrapper .module {
+    width: 320px;
+    height: 200px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.wrapper .module:nth-child(1) {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper .module:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    background-image: url(images/module2.jpg);
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.wrapper .module:nth-child(2) {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper .module:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    background-image: url(images/module2.jpg);
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.wrapper .module:nth-child(3) {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper .module:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    background-image: url(images/Forever\ Love.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.wrapper .module:nth-child(4) {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper .module:nth-child(4)::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    background-image: url(images/module2.jpg);
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.wrapper .module:nth-child(5) {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper .module:nth-child(5)::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    background-image: url(images/module2.jpg);
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.wrapper .module:nth-child(6) {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper .module:nth-child(6)::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    background-image: url(images/module2.jpg);
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.wrapper .module:nth-child(7) {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper .module:nth-child(7)::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    background-image: url(images/Forever\ Love.jpg);
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.wrapper .module:nth-child(8) {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper .module:nth-child(8)::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    background-image: url(images/Forever\ Love.jpg);
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.wrapper .module a {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    color: #0078d4;
+}
+
+.wrapper .module a h1 {
+    margin: 0 0 20px 0;
+}

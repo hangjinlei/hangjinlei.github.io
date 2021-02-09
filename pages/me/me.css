@@ -1,0 +1,57 @@
+.wrapper .module {
+    width: 320px;
+    height: 200px;
+    margin: 20px 20px;
+    /* background-color: pink; */
+}
+
+.wrapper .module:nth-child(1) {
+    background-image: url(images/module1.jpg);
+}
+
+.wrapper .module {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    color: #000000;
+    font-size: 24px;
+}
+
+.wrapper .module .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0078d4;
+}
+
+.wrapper .module .mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+.wrapper .module .mail img {
+    height: 50px;
+    margin: 0 0 0 10px;
+}
+
+.wrapper .module .find {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+.wrapper .module .find img {
+    height: 50px;
+    margin: 0 0 0 10px;
+}
+
+.wrapper .module a {
+    color: #0078d4;
+}
