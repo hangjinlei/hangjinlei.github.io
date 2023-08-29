@@ -15,7 +15,11 @@
     "vscode": {
       "extensions": [
         // Microsoft
+        "ms-dotnettools.csdevkit",
         "ms-dotnettools.vscode-dotnet-pack",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.vscodeintellicode-csharp",
+        "ms-vscode.azure-repos",
         "ms-vscode.live-server",
         "ms-vscode-remote.vscode-remote-extensionpack",
         "ms-vscode.remote-explorer",
@@ -29,8 +33,9 @@
         "visualstudioexptteam.vscodeintellicode-insiders",
         // GitHub
         "github.codespaces",
+        "github.copilot",
+        "github.copilot-chat",
         "github.copilot-labs",
-        "github.copilot-nightly",
         "github.github-vscode-theme",
         "github.vscode-pull-request-github",
         "github.remotehub",
